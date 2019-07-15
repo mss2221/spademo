@@ -1,13 +1,3 @@
-# Welcome to Jekyll!
-
-# # # #  If Site Does Not Load on GH-PAGES:  # # # #
-# # # #  CHECK BASEURL SETTING !!!           # # # #
-
-# SITE SETTINGS
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
 title: Serge Prokofiev Archive as Data
 tag: A Digital Humanities Project
@@ -16,17 +6,12 @@ description: Visualizations and data files drawn the from Serge Prokofiev Archiv
 
 # ! ! -- BASEURL SETTINGS -- ! !
 
-# To display website on LOCAL server, set baseurl to ""
-# To deplay website on GH-PAGES, set baseurl to "spa-data/"
-
 baseurl: "/spademo"
 #baseurl: ""
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-
-
-github_username:  mss2221
+github_username:  spa-data
 
 # BUILD SETTINGS
 markdown: kramdown

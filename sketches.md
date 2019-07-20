@@ -10,7 +10,17 @@ Playable transcriptions encoded in [MEI](https://music-encoding.org/) and displa
 (MEI and MusicXML files [available here](../data-files))
 
 <!-- Verovio document collection -->
-<font size="+1">
+<table>
+{% tablerow  item in site.verovio cols:2 %}
+<a href="{{ site.baseurl }}/verovio/{{ item.shortname }}/">{{ item.name }}</a>
+{% endtablerow %}
+</table>
+
+
+
+
+
+<!-- <font size="+1">
 <ul>
   {% for item in site.verovio %}
     <li>
@@ -20,4 +30,4 @@ Playable transcriptions encoded in [MEI](https://music-encoding.org/) and displa
     </li>
   {% endfor %}
 </ul>
-<font size="+1">
+<font size="+1"> -->

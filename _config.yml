@@ -11,7 +11,7 @@ baseurl: "/spademo"
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-github_username:  spa-data
+github_username:  mss2221
 
 # BUILD SETTINGS
 markdown: kramdown

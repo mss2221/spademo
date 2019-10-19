@@ -1,7 +1,8 @@
 # spa-data
 
-### Repository for SPA-data site
+### Demo materials for SPA-data repository
+
+https://mss2221.github.io/spademo/
 
 https://spa-data.github.io/spa-data/
 
-Also contains data files from the archive available for download.

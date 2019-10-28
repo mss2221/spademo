@@ -9,10 +9,10 @@ These files contain machine-readable transcriptions of musical fragments from Pr
 
 The __[Sketches](../sketches)__ page displays the MEI files as SVG images using the Verovio engraving toolkit, which also converts the MEI to a MIDI stream playable in the web browser.
 
-__[MusicXML files](https://github.com/spa-data/spa-data/tree/master/meimidi/xml)__
+#### __[MusicXML files](https://github.com/spa-data/spa-data/tree/master/meimidi/xml)__
 
-__[MEI files](https://github.com/spa-data/spa-data/tree/master/meimidi/meiEdit)__
-
+#### __[MEI files](https://github.com/spa-data/spa-data/tree/master/meimidi/meiEdit)__
+<br/><br/>
 
 ---
 

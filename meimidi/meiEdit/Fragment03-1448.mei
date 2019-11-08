@@ -108,7 +108,7 @@
                             </staff>
 
                             <dir xml:id="dir-0000000207355066" staff="1" startid="#note-0000000628853624" place="above">
-                                <rend xml:id="rend-0000001724237050" fontfam="Plantin MT Std" fontstyle="italic" fontweight="bold" >moderato</rend>
+                               <!-- <rend xml:id="rend-0000001724237050" fontfam="Plantin MT Std" fontstyle="italic" fontweight="bold" >moderato</rend> -->
                             </dir>
                             <tempo xml:id="tempo-0000000835442380" staff="1" startid="#note-0000000628853624" mm="100" mm.unit="4" />
                         </measure>

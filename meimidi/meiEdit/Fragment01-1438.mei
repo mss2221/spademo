@@ -42,6 +42,7 @@
                             <staff xml:id="staff-0000001061715152" n="1">
                                 <layer xml:id="layer-0000000105724338" n="1">
 
+<!--dummy space element-->
                                   <space dur="16" />
 
 
@@ -59,32 +60,14 @@
                                 </layer>
                                 <layer xml:id="layer-0000000094914413" n="2">
 
+<!--dummy space element-->
                                   <space dur="16" />
-
-
-                                    <chord xml:id="chord-0000001118599304" dots="1" dur="4" stem.dir="down">
-                                        <note xml:id="note-0000000975306615" oct="4" pname="c" color="#000000" />
-                                        <note xml:id="note-0000000989821162" oct="4" pname="g" color="#000000" />
-                                    </chord>
-                                    <chord xml:id="chord-0000000971354934" dur="8" stem.dir="down">
-                                        <note xml:id="note-0000000675576849" oct="4" pname="c" color="#000000" />
-                                        <note xml:id="note-0000000170157746" oct="4" pname="g" color="#000000" />
-                                    </chord>
-                                    <chord xml:id="chord-0000000141749691" dur="4" stem.dir="down">
-                                        <note xml:id="note-0000002054240537" oct="4" pname="c" color="#000000" />
-                                        <note xml:id="note-0000000403190683" oct="4" pname="g" color="#000000" />
-                                    </chord>
-                                    <chord xml:id="chord-0000001225263537" dur="4" stem.dir="down">
-                                        <note xml:id="note-0000001235313274" oct="4" pname="d" color="#000000" />
-                                        <note xml:id="note-0000000631411211" oct="4" pname="f" color="#000000">
-                                            <accid xml:id="accid-0000000218767658" accid="s" accid.ges="s" />
-                                        </note>
-                                    </chord>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000000263976566" n="2">
                                 <layer xml:id="layer-0000000498697409" n="5">
 
+<!--dummy space element-->
                                   <space dur="16" />
 
                                     <chord xml:id="chord-0000001615998711" dots="1" dur="4" stem.dir="up">

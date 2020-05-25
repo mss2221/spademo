@@ -42,7 +42,7 @@
                             <staff xml:id="staff-0000001061715152" n="1">
                                 <layer xml:id="layer-0000000105724338" n="1">
 
-<!--dummy space element-->
+          <!--NB: dummy space element-->
                                   <space dur="16" />
 
 
@@ -60,14 +60,14 @@
                                 </layer>
                                 <layer xml:id="layer-0000000094914413" n="2">
 
-<!--dummy space element-->
+            <!--NB: dummy space element-->
                                   <space dur="16" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000000263976566" n="2">
                                 <layer xml:id="layer-0000000498697409" n="5">
 
-<!--dummy space element-->
+             <!--NB: dummy space element-->
                                   <space dur="16" />
 
                                     <chord xml:id="chord-0000001615998711" dots="1" dur="4" stem.dir="up">

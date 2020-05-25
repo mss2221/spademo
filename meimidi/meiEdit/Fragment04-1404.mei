@@ -43,7 +43,7 @@
                         <measure xml:id="measure-0000001686523979" n="1">
                             <staff xml:id="staff-0000002087468724" n="1">
                                 <layer xml:id="layer-0000001269985995" n="1">
-                                <!--dummy space element-->
+        <!-- NB: dummy space element-->
                                   <space dur="8" />
                                     <note xml:id="note-0000002093817540" dur="4" oct="3" pname="c" stem.dir="up" />
                                     <note xml:id="note-0000001079121238" dur="4" oct="3" pname="c" stem.dir="up" />
@@ -51,7 +51,7 @@
                             </staff>
                             <staff xml:id="staff-0000001464254263" n="2">
                                 <layer xml:id="layer-0000001385433119" n="5">
-      <!--dummy space element-->
+      <!-- NB: dummy space element-->
                                   <space dur="8"/>
 
                                     <chord xml:id="chord-0000000311097317" dur="4" stem.dir="up">
@@ -298,6 +298,7 @@
 
                                     <rest xml:id="rest-0000001410585565" dur="4" />
                                     <rest xml:id="rest-0000001753453592" dur="4" />
+
                                     <clef xml:id="clef-0000001246350710" shape="G" line="2" />
                                     <chord xml:id="chord-0000002079203978" dur="4" stem.dir="down">
                                         <artic xml:id="artic-0000001599336685" artic="acc" />
@@ -310,7 +311,7 @@
                                     </chord>
                                 </layer>
                                 <layer xml:id="layer-0000001092822084" n="2">
-                  <!--dummy space element-->
+        <!--NB:  space element to align LH and RH chords -->
                                     <space xml:id="space-0000000774740869" dur="2" />
                                     <clef xml:id="clef-0000001246350710" shape="G" line="2" />
                                     <chord xml:id="chord-0000001308960598" dur="4" stem.dir="down">
@@ -330,7 +331,7 @@
 
                                     <rest xml:id="rest-0000001904229413" dur="4" />
 
-    <!-- dummy note element--> -->
+    <!-- NB: dummy note element -->
                                     <note xml:id="note-0000000674306904" dur="4" oct="2" pname="a" stem.dir="up" visible="false"/>
 
                                 </layer>

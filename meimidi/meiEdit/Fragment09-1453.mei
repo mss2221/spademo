@@ -40,7 +40,9 @@
                         <measure xml:id="measure-0000000739571649" n="0">
                             <staff xml:id="staff-0000000194241667" n="1">
                                 <layer xml:id="layer-0000000228930450" n="1">
+            <!-- NB: dummy space -->
                                   <space dur="16" visible="false"/>
+
                                     <beam xml:id="beam-0000000188127780">
                                         <note xml:id="note-0000000530303593" dur="8" oct="5" pname="f" color="#000000" stem.dir="down">
                                             <accid xml:id="accid-0000001893816745" accid="s" accid.ges="s" />
@@ -52,7 +54,9 @@
                             </staff>
                             <staff xml:id="staff-0000000061596370" n="2">
                                 <layer xml:id="layer-0000001017674541" n="3">
+            <!-- NB: dummy note -->
                                   <space dur="16" visible="false"/>
+
                                     <rest xml:id="rest-0000001403432738" dots="1" dur="4" />
                                 </layer>
                             </staff>
@@ -342,7 +346,8 @@
                                     </beam>
                                     <note xml:id="note-0000000671816283" dur="8" oct="6" pname="d" color="#000000" stem.dir="up" />
                                     <note xml:id="note-0000002043143958" dur="4" oct="6" pname="g" color="#000000" stem.dir="up" />
-                                    <!-- Dummy note -->
+
+                <!-- NB: Dummy note -->
                                     <note dur="4" oct="6" pname="c" visible="false"/>
 
                                 </layer>
@@ -399,12 +404,12 @@
                                     <space xml:id="space-0000000484429722" dur="4" />
                                     <note xml:id="note-0000001473614061" dots="1" dur="4" oct="3" pname="g" color="#000000" stem.dir="down" />
 
-                                  <!-- Dummy note -->
+              <!-- NB: Dummy note ( still clips last note )-->
                                   <note dur="4" oct="4" pname="g" visible="false"/>
+
                                 </layer>
                             </staff>
                         </measure>
-
                     </section>
                 </score>
             </mdiv>

@@ -39,7 +39,7 @@
                             <staff xml:id="staff-0000000234805795" n="1">
                                 <layer xml:id="layer-0000001968792357" n="1">
 
-                  <!--dummy space element-->
+                  <!-- NB: dummy space element-->
                                   <space dur="16"/>
 
                                     <beam xml:id="beam-0000000612088853">
@@ -68,9 +68,9 @@
                             </staff>
                             <staff xml:id="staff-0000001752471628" n="2">
                                 <layer xml:id="layer-0000001365946558" n="2">
-    <!--dummy space element-->
+    <!--NB: dummy space element-->
                                   <space dur="16"/>
-                                  
+
                                     <beam xml:id="beam-0000001250990426">
                                         <chord xml:id="chord-0000001062230495" dur="16" stem.dir="up">
                                             <note xml:id="note-0000000745508549" oct="2" pname="c" color="#000000" />
@@ -260,7 +260,7 @@
                                         </note>
                                     </beam>
 
-                      <!--dummy note element-->
+                      <!-- NB: dummy note -->
                                     <note dur="4" visible="false"/>
 
                                 </layer>
@@ -298,7 +298,7 @@
                                         </chord>
                                     </beam>
 
-              <!--dummy note element-->
+              <!--NB: dummy note -->
                                     <note dur="4" visible="false"/>
 
                                 </layer>

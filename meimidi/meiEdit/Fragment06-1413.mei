@@ -329,9 +329,13 @@
                                         </note>
                                         <note xml:id="note-0000001562021144" dur="8" oct="5" pname="d" color="#000000" stem.dir="up" />
                                     </beam>
-                                    <!-- FAKE last note so last chord sounds in midiplayer -->
-                                    <note xml:id="note-fake1" dur="4" oct="2" pname="a" stem.dir="up" visible="false"/>
-                                    <note xml:id="note-fake2" dur="4" oct="2" pname="a" visible="false"/>
+                                    
+                          <!-- NB: dummy last note so last chord sounds in midiplayer -->
+
+                          <!-- ALSO NB: there are TWO  dummy notes here to elongate the final tie -->
+
+                                    <note xml:id="note-dummy1" dur="4" oct="2" pname="a" stem.dir="up" visible="false"/>
+                                    <note xml:id="note-dummy2" dur="4" oct="2" pname="a" visible="false"/>
 
                                 </layer>
                                 <layer xml:id="layer-0000001489758225" n="2">
@@ -349,7 +353,11 @@
                                     </chord>
                                 </layer>
                             </staff>
-                            <tie xml:id="tie-x1" startid="#note-0000001562021144" endid="#note-fake2" />
+
+                            <!-- NB: tie is elongated by creating 2 @visible="false" notes and
+                                      setting anchor to #note-dummy2 -->
+
+                            <tie xml:id="tie-x1" startid="#note-0000001562021144" endid="#note-dummy2" />
 
                             <staff xml:id="staff-0000001178422339" n="2">
                                 <layer xml:id="layer-0000001136927769" n="3">

@@ -14,6 +14,7 @@ Visualization of Prokofiev's global network of correspondents using database man
 <br>
 __Alluvial chart:__ Prokofiev annotated his [manuscripts](https://findingaids.library.columbia.edu/ead/nnc-rb/ldpd_10815449/dsc/1) in a variety of languages. This chart illustrates the languages he used in relation to the musical genres he worked in and the different arrangements of his compositions.
 
- <a href="http://arcg.is/1Xv1HL"> <br><br>
+<br>
+<br>
 <a href="../img/alluvialEditShrp.jpg"><img src="../img/alluvial.jpg" style="width:800px;height:300;" title="alluvial chart" alt="alluvial chart">
 </a>

@@ -43,7 +43,7 @@
                             </staff>
                             <staff xml:id="staff-0000000047609582" n="2">
                                 <layer xml:id="layer-0000001120541375" n="5">
-                                  <space dur="8" />
+                                  <!-- <space dur="8" /> -->
                                     <chord xml:id="chord-0000001226166587" dur="4" stem.dir="up">
                                         <note xml:id="note-0000000440991554" oct="2" pname="f" />
                                         <note xml:id="note-0000000644793854" oct="3" pname="f" />

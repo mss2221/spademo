@@ -309,7 +309,7 @@
                                 <layer xml:id="layer-0000001092822084" n="2">
 
                                     <space xml:id="space-0000000774740869" dur="2" />
-                                    <clef xml:id="clef-0000001246350710" shape="G" line="2" />
+                                    <clef xml:id="clef-0000001246350710_x" shape="G" line="2" />
                                     <chord xml:id="chord-0000001308960598" dur="4" stem.dir="down">
                                         <artic xml:id="artic-0000000035464567" artic="acc" />
                                         <note xml:id="note-0000001746382224" oct="3" pname="f" />

@@ -1,8 +1,23 @@
 <script type="module">
-    import 'https://www.verovio.org/javascript/app/verovio-app.js';
+//    import 'https://www.verovio.org/javascript/app/verovio-app.js';
+
+    import 'https://www.verovio.org/javascript/develop/verovio-toolkit-wasm.js';
 
     // Create the app - here with an empty option object
-    const app = new Verovio.App(document.getElementById("svg_output"), {});
+   // const app = new Verovio.App(document.getElementById("viewer"), {});
+
+
+/* wait for page to load */
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    verovio.module.onRuntimeInitialized = function () {
+        // This line initializes the Verovio toolkit
+        const app = new verovio.toolkit();
+        app.setOptions({
+        scale: 40
+        });
+
+
 
     // Load a file (MEI or MusicXML)
     fetch("{{ site.baseurl }}/meimidi/meiEdit/{{ page.meifile }}")
@@ -11,16 +26,9 @@
         })
         .then(function(text) {
             app.loadData(text);
+            let svg = app.renderToSVG(1);
+            document.getElementById("viewer").innerHTML = svg;
         });
-
-            function loadFile() {
-                file = "{{ site.baseurl }}/meimidi/meiEdit/{{ page.meifile }}";
-                $.ajax({
-                    url: file
-                    , dataType: "text"
-                    , success: function(data) {
-                        loadData(data);
-                    }
-                });
-            }
+     }
+ });
 </script>

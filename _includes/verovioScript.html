@@ -12,8 +12,8 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     verovio.module.onRuntimeInitialized = function () {
         // This line initializes the Verovio toolkit
-        const app = new verovio.toolkit();
-        app.setOptions({
+        const tk = new verovio.toolkit();
+        tk.setOptions({
         scale: 40
         });
 
@@ -25,9 +25,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
             return response.text();
         })
         .then(function(text) {
-            app.loadData(text);
-            let svg = app.renderToSVG(1);
+            tk.loadData(text);
+            let svg = tk.renderToSVG(1);
             document.getElementById("viewer").innerHTML = svg;
+                     console.log("Verovio options:", tk.getOptions());
         });
      }
  });

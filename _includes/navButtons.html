@@ -3,12 +3,58 @@
   function goBack() {
     window.history.back();
   }
+
+
+
 </script>
 
 <!-- navigation buttons: BACK and PLAY -->
+<!--
 <div>
   <button class="button" onclick="goBack()">Back</button>
   <button class="button" onclick="play_midi()">
     <b>Click to play</b>
   </button>
 </div>
+-->
+<!--
+<script>
+   function scaleUp(currentScale) {
+      return Math.min(currentScale + 10, 100);
+   }
+
+   function scaleDown(currentScale) {
+      return Math.max(currentScale - 10, 10);
+   }
+</script>
+-->
+<!-- SVG div -->
+<!--
+function scaleUp(currentScale) {
+  return Math.min(currentScale + 10, 100);
+}
+
+function scaleDown(currentScale) {
+  return Math.max(currentScale - 10, 10);
+}
+
+  const scaleUpHandler = function () {
+     let currentScale = parseInt(tk.getOptions().scale);
+     let newScale = scaleUp(currentScale);
+     tk.setOptions({scale: newScale});
+     tk.redoLayout();
+     notationElement.innerHTML = tk.renderToSVG(currentPage, {});
+}
+document.getElementById("scaleUp").addEventListener("click", scaleUpHandler);
+
+const scaleDownHandler = function () {
+     let currentScale = parseInt(tk.getOptions().scale);
+     let newScale = scaleDown(currentScale);
+     tk.setOptions({scale: newScale});
+     tk.redoLayout();
+     let totalPages = tk.getPageCount();
+     currentPage = Math.min(currentPage, totalPages);
+     notationElement.innerHTML = tk.renderToSVG(currentPage, {});
+}
+document.getElementById("scaleDown").addEventListener("click", scaleDownHandler);
+-->

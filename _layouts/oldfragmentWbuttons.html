@@ -2,25 +2,21 @@
 layout: default
 ---
 
+<!-- old fragment _layout with buttons! -->
+
   {% include fragTitle.html %}
 
   {% include fragImg.html %}
-
-  {% include navButtons.html %}
 
   <div class="fragment">
   {{ content }}
   </div>
 
 <p>
+  {% include navButtons.html %}
 
-<script></script>
-<!--
-   <button class="nav" id="scaleUp">+</button>
-   <button class="nav" id="scaleDown">&#8211;</button>
--->
 <!-- SVG div -->
-<div id="viewer"/>
+<div id="svg_output"></div>
 
 <!--  MIDI Player div-->
 <div style="height: 30px;">

@@ -6,6 +6,9 @@
   font-family: Arial, Helvetica, sans-serif;
   color: green;
 } */
+g.note.playing {
+  fill: blue;
+}
 
 button {
   border-radius: .25rem;

@@ -7,11 +7,18 @@ layout: default
   {% include fragImg.html %}
 
 <br/>
-
   {% include navButtons.html %}
-
-  <button id="playMIDI">Play</button>
-  <button id="stopMIDI">Stop</button>
+<br/>
+  <button id="playMIDI">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+      <path d="M11.596 8.52l-7.5 4.5V3l7.5 4.5z"/>
+  </svg>
+  </button>
+  <button id="stopMIDI">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stop" viewBox="0 0 16 16">
+      <path d="M3.5 3.5h9v9h-9z"/>
+  </svg>
+  </button>
 
   <div class="fragment">
   {{ content }}
